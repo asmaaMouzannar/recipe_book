@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success" (click)="onNewRecipe()"> New Recipe </button>
+  </div>
+</div>
+
+<hr /> 
+
+<div class="row">
+  <div class="col-xs-12">
+    @for (recipeElement of recipes; track $index) {
+      <app-recipe-item
+        [recipe]="recipeElement"
+        [index]="$index"
+      ></app-recipe-item>
+    }
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" (click)="collapsed = !collapsed">
+        @for (iconBar of [1, 2, 3]; track $index) {
+          <span class="icon-bar"></span>
+        }
+      </button>
+        
+      <a routerLink="/" class="navbar-brand">Recipe Book</a>
+    </div>
+    <div class="navbar-collapse" [class.collapse]="collapsed">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active"><a routerLink="/recipes">Recipes</a></li> 
+        <li routerLinkActive="active"><a routerLink="/shopping-list">ShoppingList</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "recipeId": 0,
+      "name": "Cake",
+      "description": "sponge cake with sprinkles on it",
+      "imagePath": "https://th.bing.com/th/id/R.ddb6fa236c1f1a48999c733bd34b0d9e?rik=U4txx9XbvLupCw&pid=ImgRaw&r=0",
+      "ingredients": [
+        {
+          "name": "eggs",
+          "amount": 2
+        },
+        {
+          "name": "flour",
+          "amount": 5
+        },
+        {
+          "name": "sugar",
+          "amount": 5
+        }
+      ]
+    },
+    {
+        "recipeId": 1,
+        "name": "Hawaii juice",
+        "description": "A Hawaiian juice with mango and pineapple flavours",
+        "imagePath": "https://thumbs.dreamstime.com/b/splash-ananas-juice-mango-pineapple-d-realistic-vector-eps-packaging-template-brand-advertising-mango-slices-flowing-117590673.jpg",
+        "ingredients": [
+          {
+            "name": "mango",
+            "amount": 2
+          },
+          {
+            "name": "pineapple",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "recipeId": 2,
+        "name": "chcocolate mooo",
+        "description": "a British manufacturer of dairy free, gluten free, vegan and organic chocolates.",
+        "imagePath": "https://th.bing.com/th/id/R.7dbfb286b3a1d9a4d93d7e1b423687e0?rik=nv3Pv2tP56VOkA&riu=http%3a%2f%2fudderlydelicious.com%2fimages%2fslider%2fslider_moo-chocolate.jpg&ehk=FpsH6QHhbdFertWdhXnN8vJ45%2f8tg8nYunnhTxBGOZk%3d&risl=&pid=ImgRaw&r=0",
+        "ingredients": [
+          {
+            "name": "milk",
+            "amount": 3
+          },
+          {
+            "name": "chocolate",
+            "amount": 5
+          },
+          {
+            "name": "whipped cream",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "recipeId": 3,
+        "name": "tahitii",
+        "description": "you can juice the flavour you like just add ice and milk",
+        "imagePath": "https://th.bing.com/th/id/OIP.HsMn8DLA8reVlatfDlB22QAAAA?w=260&h=180&c=7&r=0&o=5&pid=1.7",
+        "ingredients": [
+          {
+            "name": "ice",
+            "amount": 8
+          },
+          {
+            "name": "milk",
+            "amount": 1
+          },
+          {
+            "name": "fruit",
+            "amount": 4
+          }
+        ]
+      }
+  ]
+}
